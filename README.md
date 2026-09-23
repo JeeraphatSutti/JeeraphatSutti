@@ -1,16 +1,53 @@
-## Hi there 👋
+# Hi, I'm Jeeraphat 👋
 
-<!--
-**JeeraphatSutti/JeeraphatSutti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Data Engineering enthusiast focused on building ETL pipelines and transforming raw data into analytics-ready datasets.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 About Me
+
+- 🎓 Bachelor of Science in Business Information Technology at King Mongkut's Institute of Technology Ladkrabang
+- 🔧 Interested in Data Engineering, ETL pipelines, orchestration, data quality, and data modeling
+- 🔍 Currently seeking a Data Engineering / Data internship opportunity
+- 🌱 Currently learning Airflow, Docker, and cloud data platforms
+- 📫 Contact:
+  - Email: [jeeraphat.sutti@gmail.com](mailto:jeeraphat.sutti@gmail.com)
+  - LinkedIn: [My LinkedIn](https://www.linkedin.com/in/jeeraphat-suttitheeravut-0281b93a6)
+
+---
+
+## 🚀 Projects
+
+### [Movie Box Office ETL Pipeline](https://github.com/JeeraphatSutti/movie-box-office-etl)
+
+End-to-end ETL pipeline using a medallion architecture:
+
+**Bronze → Silver → Gold**
+
+- Ingests approximately 1M movie records incrementally
+- Supports idempotent and re-runnable processing
+- Includes deduplication and data quality checks
+- Performs date parsing and year validation
+- Tracks data lineage using `_ingested_at` and `_source_file`
+- Creates gold-layer aggregates by year, genre, and top directors
+
+**Tech stack:** Python, Pandas, Parquet, Airflow, Docker
+
+---
+
+## 🛠 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=JeeraphatSutti&show_icons=true&theme=default" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JeeraphatSutti&layout=compact" alt="Top languages" />
+</p>
