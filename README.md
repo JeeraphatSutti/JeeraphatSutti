@@ -45,6 +45,14 @@ End-to-end ETL pipeline using a medallion architecture:
 
 ---
 
+### Language & Status
+
+![Thai](https://img.shields.io/badge/Language-Thai-1f9d55?style=for-the-badge)
+![English](https://img.shields.io/badge/Language-English-007ACC?style=for-the-badge)
+![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-00C853?style=for-the-badge)
+![Seeking Internship](https://img.shields.io/badge/Seeking-Data%20Engineering%20Intern-FF9800?style=for-the-badge)
+
+---
 ## 📊 GitHub Stats
 
 <p align="center">
