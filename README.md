@@ -1,15 +1,15 @@
 # Hi, I'm Jeeraphat 👋
 
-Data Engineering enthusiast focused on building ETL pipelines and transforming raw data into analytics-ready datasets.
+Data Engineering enthusiast focused on building scalable ETL pipelines, cloud data platforms, and transforming raw data into analytics-ready datasets.
 
 ---
 
 ## 👨‍💻 About Me
 
 - 🎓 Bachelor of Science in Business Information Technology at King Mongkut's Institute of Technology Ladkrabang
-- 🔧 Interested in Data Engineering, ETL pipelines, orchestration, data quality, and data modeling
+- 🔧 Interested in Data Engineering, Lakehouse Architecture, Cloud Data Warehousing, Orchestration, and Data Modeling
 - 🔍 Currently seeking a Data Engineering / Data internship opportunity
-- 🌱 Currently learning Airflow, Docker, and cloud data platforms
+- 🌱 Working with Apache Airflow, Apache Spark, Docker, and Google Cloud Platform (BigQuery, GCS)
 - 📫 Contact:
   - Email: [jeeraphat.sutti@gmail.com](mailto:jeeraphat.sutti@gmail.com)
   - LinkedIn: [My LinkedIn](https://www.linkedin.com/in/jeeraphat-suttitheeravut-0281b93a6)
@@ -17,6 +17,20 @@ Data Engineering enthusiast focused on building ETL pipelines and transforming r
 ---
 
 ## 🚀 Projects
+
+### [Retail Customer 360 & Feature Store Pipeline](https://github.com/JeeraphatSutti/retail-customer-360)
+
+Hybrid cloud data platform implementing Medallion Architecture (Bronze → Silver → Gold) on Olist E-Commerce dataset:
+
+- Ingests raw data across 5 relational datasets into Google Cloud Storage (Bronze)
+- Orchestrates multi-step ELT workflows using **Apache Airflow** in a containerized Docker environment
+- Cleans, deduplicates, and models normalized tables into **Google BigQuery** (Silver)
+- Builds Customer 360 analytics table with **RFM Segmentation**, review sentiment scores, and payment method breakdowns (Gold)
+- Delivers an interactive **Looker Studio** dashboard tracking R$ 15.7M in revenue across 94,990 unique customers
+
+**Tech stack:** Python, Apache Airflow, Apache Spark (PySpark), dbt, Google Cloud Storage, BigQuery, Looker Studio, Docker
+
+---
 
 ### [Movie Box Office ETL Pipeline](https://github.com/JeeraphatSutti/movie-box-office-etl)
 
@@ -39,7 +53,11 @@ End-to-end ETL pipeline using a medallion architecture:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
@@ -53,6 +71,7 @@ End-to-end ETL pipeline using a medallion architecture:
 ![Seeking Internship](https://img.shields.io/badge/Seeking-Data%20Engineering%20Intern-FF9800?style=for-the-badge)
 
 ---
+
 ## 📊 GitHub Stats
 
 <p align="center">
